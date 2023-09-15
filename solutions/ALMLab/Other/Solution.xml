@@ -80,7 +80,13 @@
     <RootComponents>
       <RootComponent type="1" schemaName="account" behavior="2" />
       <RootComponent type="300" schemaName="alm_testapp_c8162" behavior="0" />
+      <RootComponent type="60" id="{d1f511a8-1ead-e211-bb72-00155da9a201}" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="60" displayName="Sales Dashboard" solution="msdynce_Sales (9.0.4.0076)" id="{d1f511a8-1ead-e211-bb72-00155da9a201}" />
+        <Dependent type="60" displayName="Sales Dashboard" id="{d1f511a8-1ead-e211-bb72-00155da9a201}" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>
